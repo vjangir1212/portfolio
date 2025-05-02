@@ -1,0 +1,11 @@
+@media screen and (max-width:560px) {
+    .navbar{flex-direction: column;
+        border-bottom: 1px solid #D8E606;
+        align-items: center;
+        
+        .logo{border-bottom: solid rgba(255, 255, 255, 0.048) 1px;
+            text-align: center;width: 100%; }
+        }
+}
+
+

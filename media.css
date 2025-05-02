@@ -1,0 +1,42 @@
+@media screen and (max-width:560px) {
+    .navbar{flex-direction: column;
+        border-bottom: 1px solid #D8E606;
+        align-items: center;
+        
+        .logo{border-bottom: solid rgba(255, 255, 255, 0.048) 1px;
+            text-align: center;width: 100%; }
+        }
+
+    .box1A{flex-direction: column-reverse;
+        width: 80%;margin: auto;
+    }
+
+    .box2{height: 300px;
+        width: 360px;
+        border: none;
+        border-radius: 0px;
+        border-bottom: #D8E606 solid 10px;
+       
+        .imgbox{background-color: #D8E606;
+            height: 210px;
+            width: 210px;
+            border-radius: 200px;
+            overflow:visible;
+            img{height: 360px;width: 400px;
+                transform: scaleX(1.25);
+            border-bottom: 2px solid blanchedalmond;}
+        }
+    }
+}
+
+@media screen and ( max-width: 800px) {
+    body{overflow-y: auto;}
+    .home{flex-direction: column-reverse;
+
+        height: auto;
+        .box1{max-width: 90%;}
+        
+    }
+
+
+}

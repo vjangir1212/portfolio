@@ -1,0 +1,111 @@
+*{padding: 0%;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    box-sizing: border-box;}
+    
+    
+    body{background-color: #081C29;}
+    
+    header{margin-top: 5px;}
+    
+    .navbar{
+        display: flex;
+        max-width: 1200px;
+        color: white;
+        padding: 5px;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    
+        .logo a{font-size: 35px;
+            text-decoration:none;
+            color: white;}
+    
+        .btns{color: white;
+            display: flex;
+            margin-left: 10px;
+            margin-right: 10px;
+            justify-content: space-between;
+            a{text-decoration: none;
+            margin: 20px;
+            
+            font-weight: 600;
+            font-size: large;
+            transition-property: all;
+            transition-duration: 0.2s;
+            color: white;}
+    
+            a.a03{color: #D8E606;}
+    
+            a:hover{
+                color: #D8E606;
+                transform: translateY(-2px);
+                
+            }
+        }
+        
+    }
+
+H2{color:#D8E606;
+    text-align: center;
+    padding: 50px ;
+    text-decoration: underline  2px;
+}    
+
+
+.cardbox{display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+
+.card{display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 200px;
+    color: rgb(254, 254, 254);
+    background-color: #fafbfc29;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 15px;
+    transition-duration: 0.2s;
+    transition-property: all;
+    h3{font-size: 25px;}
+    p{font-size: 13px;}
+
+
+    .cicn{display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box;
+        i{scale: 2.1;}
+        
+        
+    }
+
+    
+
+}
+
+.card:hover{
+    border: #D8E606 solid 1px;
+    .cicn{color: #D8E606;}
+    h3{color: #D8E606;}
+}
+
+.Ecard{height: 150px;
+    p{font-size: 14px;}
+    i{scale: 0.5;}
+    a{text-decoration: none;
+        color: #a6d8fa;
+    }
+}
